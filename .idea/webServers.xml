@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="c6e1b62b-9ecb-42ec-a18c-b1d9748dd000" name="TestDibidi" url="https://test.dibidishop.ru/">
+        <fileTransfer rootFolder="/home/bitrix/ext_www/test.dibidishop.ru" accessType="SFTP" host="89.108.76.173" port="22" sshConfigId="bcd9b2cc-9296-4add-b738-7cf682ccb281" sshConfig="bitrix@89.108.76.173:22 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+      <webServer id="24018553-9e9f-40d6-87ea-092c3acd3272" name="ProdDibidi" url="https://dibidishop.ru/">
+        <fileTransfer rootFolder="/home/bitrix" accessType="SFTP" host="89.108.76.173" port="22" sshConfigId="bcd9b2cc-9296-4add-b738-7cf682ccb281" sshConfig="bitrix@89.108.76.173:22 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

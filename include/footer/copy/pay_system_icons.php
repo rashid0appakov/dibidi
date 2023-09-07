@@ -1,0 +1,10 @@
+<i title="Cash" class="cacsh"></i>
+<i title="MasterCard" class="mastercard"></i>
+<i title="Visa" class="visa"></i>
+<i title="Sberbank" class="sbrf"></i>
+<i title="Mir" class="mir"></i>
+<i title="Jcb" class="jcb"></i>
+<i title="ApplePay" class="applepay"></i>
+<i title="GooglePay" class="googlepay"></i>
+<i title="SamsungPay" class="samsungpay"></i>
+<i title="СБП" class="fastpay"></i>

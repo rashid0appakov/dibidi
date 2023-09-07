@@ -1,0 +1,671 @@
+REGISTER_ERROR
+----------------------------
+DATE: 2022-03-03 17:42:02
+URL https://3dsec.sberbank.ru/payment/rest/
+DATA: 
+Array
+(
+    [orderNumber] => 30_126_29
+    [amount] => 7000
+    [userName] => dibidishop-operator
+    [password] => jBZWnfT39Uz8FAN
+    [description] => 
+    [returnUrl] => http://dibidi.01sh.ru/bitrix/tools/sale_ps_result.php?PAYMENT=SBERBANK&ORDER_ID=30&PAYMENT_ID=126
+    [CMS] => Bitrix 21.400.100
+    [language] => ru
+    [jsonParams] => {"CMS":"Bitrix 21.400.100","Module-Version":"1.3.5","USER_FIO":"\u041d\u0435 \u043e\u0444\u043e\u0440\u043c\u043b\u044f\u0442\u044c!","email":"alexandr3127@mail.ru","phone":"+79658180775"}
+)
+
+RESPONSE: 
+Array
+(
+    [errorCode] => 999
+    [errorMessage] => Server not available
+)
+
+
+
+REGISTER_ERROR
+----------------------------
+DATE: 2022-03-03 17:44:46
+URL https://3dsec.sberbank.ru/payment/rest/
+DATA: 
+Array
+(
+    [orderNumber] => 30_126_29
+    [amount] => 7000
+    [userName] => dibidishop-operator
+    [password] => jBZWnfT39Uz8FAN
+    [description] => 
+    [returnUrl] => http://dibidi.01sh.ru/bitrix/tools/sale_ps_result.php?PAYMENT=SBERBANK&ORDER_ID=30&PAYMENT_ID=126
+    [CMS] => Bitrix 21.400.100
+    [language] => ru
+    [jsonParams] => {"CMS":"Bitrix 21.400.100","Module-Version":"1.3.5","USER_FIO":"\u041d\u0435 \u043e\u0444\u043e\u0440\u043c\u043b\u044f\u0442\u044c!","email":"alexandr3127@mail.ru","phone":"+79658180775"}
+)
+
+RESPONSE: 
+Array
+(
+    [errorCode] => 5
+    [errorMessage] => Доступ запрещён
+)
+
+
+
+REGISTER_ERROR
+----------------------------
+DATE: 2022-03-03 17:46:54
+URL https://3dsec.sberbank.ru/payment/rest/
+DATA: 
+Array
+(
+    [orderNumber] => 30_126_29
+    [amount] => 7000
+    [userName] => dibidishop-operator
+    [password] => jBZWnfT39Uz8FAN
+    [description] => 
+    [returnUrl] => http://dibidi.01sh.ru/bitrix/tools/sale_ps_result.php?PAYMENT=SBERBANK&ORDER_ID=30&PAYMENT_ID=126
+    [CMS] => Bitrix 21.400.100
+    [language] => ru
+    [jsonParams] => {"CMS":"Bitrix 21.400.100","Module-Version":"1.3.5","USER_FIO":"\u041d\u0435 \u043e\u0444\u043e\u0440\u043c\u043b\u044f\u0442\u044c!","email":"alexandr3127@mail.ru","phone":"+79658180775"}
+)
+
+RESPONSE: 
+Array
+(
+    [errorCode] => 5
+    [errorMessage] => Доступ запрещён
+)
+
+
+
+REGISTER_ERROR
+----------------------------
+DATE: 2022-03-03 17:49:16
+URL https://3dsec.sberbank.ru/payment/rest/
+DATA: 
+Array
+(
+    [orderNumber] => 30_126_29
+    [amount] => 7000
+    [userName] => dibidishop-operator
+    [password] => jBZWnfT39Uz8FAN
+    [description] => 
+    [returnUrl] => http://dibidi.01sh.ru/bitrix/tools/sale_ps_result.php?PAYMENT=SBERBANK&ORDER_ID=30&PAYMENT_ID=126
+    [CMS] => Bitrix 21.400.100
+    [language] => ru
+    [jsonParams] => {"CMS":"Bitrix 21.400.100","Module-Version":"1.3.5","USER_FIO":"\u041d\u0435 \u043e\u0444\u043e\u0440\u043c\u043b\u044f\u0442\u044c!","email":"alexandr3127@mail.ru","phone":"+79658180775"}
+)
+
+RESPONSE: 
+Array
+(
+    [errorCode] => 5
+    [errorMessage] => Доступ запрещён
+)
+
+
+
+CALLBACK_UPDATE
+----------------------------
+DATE: 2022-03-05 12:25:48
+URL https://3dsec.sberbank.ru/mportal-uat/mvc/public/merchant/update/dibidishop
+DATA: 
+Array
+(
+    [login] => dibidishop-api
+    [password] => dibidishop
+    [test_mode] => 1
+    [callbacks_enabled] => 1
+    [callback_addresses] => http://dibidi.01sh.ru/bitrix/tools/sale_ps_result.php?PAYMENT=SBERBANK&OPERATION_CALLBACK=SBER
+    [callback_operations] => approved,deposited
+    [name] => dibidishop
+)
+
+RESPONSE: 
+
+
+
+REGISTER_NEW_ORDER
+----------------------------
+DATE: 2022-03-05 12:25:55
+URL https://3dsec.sberbank.ru/payment/rest/
+DATA: 
+Array
+(
+    [orderNumber] => 30_126_0
+    [amount] => 7000
+    [userName] => dibidishop-api
+    [password] => dibidishop
+    [description] => 
+    [returnUrl] => http://dibidi.01sh.ru/bitrix/tools/sale_ps_result.php?PAYMENT=SBERBANK&ORDER_ID=30&PAYMENT_ID=126
+    [CMS] => Bitrix 21.400.100
+    [language] => ru
+    [jsonParams] => {"CMS":"Bitrix 21.400.100","Module-Version":"1.3.5","USER_FIO":"\u041d\u0435 \u043e\u0444\u043e\u0440\u043c\u043b\u044f\u0442\u044c!","email":"alexandr3127@mail.ru","phone":"+79658180775"}
+)
+
+RESPONSE: 
+Array
+(
+    [orderId] => ae58b102-eebd-783d-97be-24dd5e369c5e
+    [formUrl] => https://3dsec.sberbank.ru/payment/merchants/sbersafe_sberid/payment_ru.html?mdOrder=ae58b102-eebd-783d-97be-24dd5e369c5e
+)
+
+
+
+CALLBACK_UPDATE
+----------------------------
+DATE: 2022-03-05 12:26:53
+URL https://3dsec.sberbank.ru/mportal-uat/mvc/public/merchant/update/dibidishop
+DATA: 
+Array
+(
+    [login] => dibidishop-api
+    [password] => dibidishop
+    [test_mode] => 1
+    [callbacks_enabled] => 1
+    [callback_addresses] => http://dibidi.01sh.ru/bitrix/tools/sale_ps_result.php?PAYMENT=SBERBANK&OPERATION_CALLBACK=SBER
+    [callback_operations] => approved,deposited
+    [name] => dibidishop
+)
+
+RESPONSE: 
+{"status":"SUCCESS","error":null}
+
+
+REGISTER_NEW_ORDER
+----------------------------
+DATE: 2022-03-05 12:26:56
+URL https://3dsec.sberbank.ru/payment/rest/
+DATA: 
+Array
+(
+    [orderNumber] => 30_126_1
+    [amount] => 7000
+    [userName] => dibidishop-api
+    [password] => dibidishop
+    [description] => 
+    [returnUrl] => http://dibidi.01sh.ru/bitrix/tools/sale_ps_result.php?PAYMENT=SBERBANK&ORDER_ID=30&PAYMENT_ID=126
+    [CMS] => Bitrix 21.400.100
+    [language] => ru
+    [jsonParams] => {"CMS":"Bitrix 21.400.100","Module-Version":"1.3.5","USER_FIO":"\u041d\u0435 \u043e\u0444\u043e\u0440\u043c\u043b\u044f\u0442\u044c!","email":"alexandr3127@mail.ru","phone":"+79658180775"}
+)
+
+RESPONSE: 
+Array
+(
+    [orderId] => 243d8858-d05b-7203-bc72-77615e369c5e
+    [formUrl] => https://3dsec.sberbank.ru/payment/merchants/sbersafe_sberid/payment_ru.html?mdOrder=243d8858-d05b-7203-bc72-77615e369c5e
+)
+
+
+
+CALLBACK_UPDATE
+----------------------------
+DATE: 2022-03-05 12:28:03
+URL https://3dsec.sberbank.ru/mportal-uat/mvc/public/merchant/update/dibidishop
+DATA: 
+Array
+(
+    [login] => dibidishop-api
+    [password] => dibidishop
+    [test_mode] => 1
+    [callbacks_enabled] => 1
+    [callback_addresses] => http://dibidi.01sh.ru/bitrix/tools/sale_ps_result.php?PAYMENT=SBERBANK&OPERATION_CALLBACK=SBER
+    [callback_operations] => approved,deposited
+    [name] => dibidishop
+)
+
+RESPONSE: 
+{"status":"SUCCESS","error":null}
+
+
+REGISTER_ERROR
+----------------------------
+DATE: 2022-03-05 12:28:03
+URL https://3dsec.sberbank.ru/payment/rest/
+DATA: 
+Array
+(
+    [orderNumber] => 30_126_2
+    [amount] => 7000
+    [userName] => dibidishop-api
+    [password] => dibidishop
+    [description] => 
+    [returnUrl] => http://dibidi.01sh.ru/bitrix/tools/sale_ps_result.php?PAYMENT=SBERBANK&ORDER_ID=30&PAYMENT_ID=126
+    [CMS] => Bitrix 21.400.100
+    [language] => ru
+    [jsonParams] => {"CMS":"Bitrix 21.400.100","Module-Version":"1.3.5","USER_FIO":"\u041d\u0435 \u043e\u0444\u043e\u0440\u043c\u043b\u044f\u0442\u044c!","email":"alexandr3127@mail.ru","phone":"+79658180775"}
+)
+
+RESPONSE: 
+Array
+(
+    [errorCode] => 999
+    [errorMessage] => Server not available
+)
+
+
+
+CALLBACK_UPDATE
+----------------------------
+DATE: 2022-03-05 12:28:57
+URL https://3dsec.sberbank.ru/mportal-uat/mvc/public/merchant/update/dibidishop
+DATA: 
+Array
+(
+    [login] => dibidishop-api
+    [password] => dibidishop
+    [test_mode] => 1
+    [callbacks_enabled] => 1
+    [callback_addresses] => http://dibidi.01sh.ru/bitrix/tools/sale_ps_result.php?PAYMENT=SBERBANK&OPERATION_CALLBACK=SBER
+    [callback_operations] => approved,deposited
+    [name] => dibidishop
+)
+
+RESPONSE: 
+
+
+
+REGISTER_ERROR
+----------------------------
+DATE: 2022-03-05 12:28:57
+URL https://3dsec.sberbank.ru/payment/rest/
+DATA: 
+Array
+(
+    [orderNumber] => 31_127_0
+    [amount] => 72800
+    [userName] => dibidishop-api
+    [password] => dibidishop
+    [description] => 
+    [returnUrl] => http://dibidi.01sh.ru/bitrix/tools/sale_ps_result.php?PAYMENT=SBERBANK&ORDER_ID=31&PAYMENT_ID=127
+    [CMS] => Bitrix 21.400.100
+    [language] => ru
+    [jsonParams] => {"CMS":"Bitrix 21.400.100","Module-Version":"1.3.5","USER_FIO":"\u041d\u0435 \u043e\u0444\u043e\u0440\u043c\u043b\u044f\u0442\u044c!","email":"alexandr3127@mail.ru","phone":"+79658180775"}
+)
+
+RESPONSE: 
+Array
+(
+    [errorCode] => 999
+    [errorMessage] => Server not available
+)
+
+
+
+CALLBACK_UPDATE
+----------------------------
+DATE: 2022-03-05 12:29:12
+URL https://3dsec.sberbank.ru/mportal-uat/mvc/public/merchant/update/dibidishop
+DATA: 
+Array
+(
+    [login] => dibidishop-api
+    [password] => dibidishop
+    [test_mode] => 1
+    [callbacks_enabled] => 1
+    [callback_addresses] => http://dibidi.01sh.ru/bitrix/tools/sale_ps_result.php?PAYMENT=SBERBANK&OPERATION_CALLBACK=SBER
+    [callback_operations] => approved,deposited
+    [name] => dibidishop
+)
+
+RESPONSE: 
+{"status":"SUCCESS","error":null}
+
+
+REGISTER_ERROR
+----------------------------
+DATE: 2022-03-05 12:29:12
+URL https://3dsec.sberbank.ru/payment/rest/
+DATA: 
+Array
+(
+    [orderNumber] => 31_127_0
+    [amount] => 72800
+    [userName] => dibidishop-api
+    [password] => dibidishop
+    [description] => 
+    [returnUrl] => http://dibidi.01sh.ru/bitrix/tools/sale_ps_result.php?PAYMENT=SBERBANK&ORDER_ID=31&PAYMENT_ID=127
+    [CMS] => Bitrix 21.400.100
+    [language] => ru
+    [jsonParams] => {"CMS":"Bitrix 21.400.100","Module-Version":"1.3.5","USER_FIO":"\u041d\u0435 \u043e\u0444\u043e\u0440\u043c\u043b\u044f\u0442\u044c!","email":"alexandr3127@mail.ru","phone":"+79658180775"}
+)
+
+RESPONSE: 
+Array
+(
+    [errorCode] => 999
+    [errorMessage] => Server not available
+)
+
+
+
+REGISTER_ERROR
+----------------------------
+DATE: 2022-03-05 12:30:19
+URL https://securepayments.sberbank.ru/payment/rest/
+DATA: 
+Array
+(
+    [orderNumber] => 31_127_29
+    [amount] => 72800
+    [userName] => dibidishop-api
+    [password] => dibidishop
+    [description] => 
+    [returnUrl] => http://dibidi.01sh.ru/bitrix/tools/sale_ps_result.php?PAYMENT=SBERBANK&ORDER_ID=31&PAYMENT_ID=127
+    [CMS] => Bitrix 21.400.100
+    [language] => ru
+    [jsonParams] => {"CMS":"Bitrix 21.400.100","Module-Version":"1.3.5","USER_FIO":"\u041d\u0435 \u043e\u0444\u043e\u0440\u043c\u043b\u044f\u0442\u044c!","email":"alexandr3127@mail.ru","phone":"+79658180775"}
+)
+
+RESPONSE: 
+Array
+(
+    [errorCode] => 5
+    [errorMessage] => Доступ запрещён
+)
+
+
+
+REGISTER_ERROR
+----------------------------
+DATE: 2022-03-05 12:30:25
+URL https://securepayments.sberbank.ru/payment/rest/
+DATA: 
+Array
+(
+    [orderNumber] => 31_127_29
+    [amount] => 72800
+    [userName] => dibidishop-api
+    [password] => dibidishop
+    [description] => 
+    [returnUrl] => http://dibidi.01sh.ru/bitrix/tools/sale_ps_result.php?PAYMENT=SBERBANK&ORDER_ID=31&PAYMENT_ID=127
+    [CMS] => Bitrix 21.400.100
+    [language] => ru
+    [jsonParams] => {"CMS":"Bitrix 21.400.100","Module-Version":"1.3.5","USER_FIO":"\u041d\u0435 \u043e\u0444\u043e\u0440\u043c\u043b\u044f\u0442\u044c!","email":"alexandr3127@mail.ru","phone":"+79658180775"}
+)
+
+RESPONSE: 
+Array
+(
+    [errorCode] => 5
+    [errorMessage] => Доступ запрещён
+)
+
+
+
+REGISTER_ERROR
+----------------------------
+DATE: 2022-03-05 12:33:24
+URL https://securepayments.sberbank.ru/payment/rest/
+DATA: 
+Array
+(
+    [orderNumber] => 31_127_29
+    [amount] => 72800
+    [userName] => dibidishop-api
+    [password] => dibidishop
+    [description] => 
+    [returnUrl] => http://dibidi.01sh.ru/bitrix/tools/sale_ps_result.php?PAYMENT=SBERBANK&ORDER_ID=31&PAYMENT_ID=127
+    [CMS] => Bitrix 21.400.100
+    [language] => ru
+    [jsonParams] => {"CMS":"Bitrix 21.400.100","Module-Version":"1.3.5","USER_FIO":"\u041d\u0435 \u043e\u0444\u043e\u0440\u043c\u043b\u044f\u0442\u044c!","email":"alexandr3127@mail.ru","phone":"+79658180775"}
+)
+
+RESPONSE: 
+Array
+(
+    [errorCode] => 5
+    [errorMessage] => Доступ запрещён
+)
+
+
+
+REGISTER_ERROR
+----------------------------
+DATE: 2022-03-05 12:33:31
+URL https://securepayments.sberbank.ru/payment/rest/
+DATA: 
+Array
+(
+    [orderNumber] => 31_127_29
+    [amount] => 72800
+    [userName] => dibidishop-api
+    [password] => dibidishop
+    [description] => 
+    [returnUrl] => http://dibidi.01sh.ru/bitrix/tools/sale_ps_result.php?PAYMENT=SBERBANK&ORDER_ID=31&PAYMENT_ID=127
+    [CMS] => Bitrix 21.400.100
+    [language] => ru
+    [jsonParams] => {"CMS":"Bitrix 21.400.100","Module-Version":"1.3.5","USER_FIO":"\u041d\u0435 \u043e\u0444\u043e\u0440\u043c\u043b\u044f\u0442\u044c!","email":"alexandr3127@mail.ru","phone":"+79658180775"}
+)
+
+RESPONSE: 
+Array
+(
+    [errorCode] => 5
+    [errorMessage] => Доступ запрещён
+)
+
+
+
+CALLBACK_UPDATE
+----------------------------
+DATE: 2022-03-05 12:33:58
+URL https://3dsec.sberbank.ru/mportal-uat/mvc/public/merchant/update/dibidishop
+DATA: 
+Array
+(
+    [login] => dibidishop-api
+    [password] => dibidishop
+    [test_mode] => 1
+    [callbacks_enabled] => 1
+    [callback_addresses] => http://dibidi.01sh.ru/bitrix/tools/sale_ps_result.php?PAYMENT=SBERBANK&OPERATION_CALLBACK=SBER
+    [callback_operations] => approved,deposited
+    [name] => dibidishop
+)
+
+RESPONSE: 
+{"status":"SUCCESS","error":null}
+
+
+REGISTER_NEW_ORDER
+----------------------------
+DATE: 2022-03-05 12:34:02
+URL https://3dsec.sberbank.ru/payment/rest/
+DATA: 
+Array
+(
+    [orderNumber] => 31_127_0
+    [amount] => 72800
+    [userName] => dibidishop-api
+    [password] => dibidishop
+    [description] => 
+    [returnUrl] => http://dibidi.01sh.ru/bitrix/tools/sale_ps_result.php?PAYMENT=SBERBANK&ORDER_ID=31&PAYMENT_ID=127
+    [CMS] => Bitrix 21.400.100
+    [language] => ru
+    [jsonParams] => {"CMS":"Bitrix 21.400.100","Module-Version":"1.3.5","USER_FIO":"\u041d\u0435 \u043e\u0444\u043e\u0440\u043c\u043b\u044f\u0442\u044c!","email":"alexandr3127@mail.ru","phone":"+79658180775"}
+    [orderBundle] => {"customerDetails":{"email":"alexandr3127@mail.ru"},"cartItems":{"items":[{"positionId":0,"itemCode":5247,"name":"\u041c\u0430\u0441\u043b\u043e Moser Clipper Oil 1400-7370 \u0434\u043b\u044f \u043d\u043e\u0436\u0435\u0432\u044b\u0445 \u0431\u043b\u043e\u043a\u043e\u0432 \u043c\u0430\u0448\u0438\u043d\u043e\u043a, 5 \u043c\u043b","itemAmount":7000,"itemPrice":7000,"quantity":{"value":1,"measure":"\u0448\u0442"},"tax":{"taxType":0},"itemAttributes":{"attributes":[{"name":"paymentMethod","value":"1"},{"name":"paymentObject","value":"1"}]}},{"positionId":2,"itemCode":"DELIVERY_9","name":"\u0414\u043e\u0441\u0442\u0430\u0432\u043a\u0430","itemAmount":65800,"itemPrice":65800,"quantity":{"value":1,"measure":"\u0448\u0442"},"tax":{"taxType":0},"itemAttributes":{"attributes":[{"name":"paymentMethod","value":"1"},{"name":"paymentObject","value":"4"}]}}]}}
+    [taxSystem] => 1
+)
+
+RESPONSE: 
+Array
+(
+    [orderId] => b14c98a5-31ee-7da1-89e6-f13c5e369c5e
+    [formUrl] => https://3dsec.sberbank.ru/payment/merchants/sbersafe_sberid/payment_ru.html?mdOrder=b14c98a5-31ee-7da1-89e6-f13c5e369c5e
+)
+
+
+
+USER_RETURN
+----------------------------
+DATE: 2022-03-05 12:34:45
+URL https://3dsec.sberbank.ru/payment/rest/
+RESPONSE: 
+{"orderNumber":null}
+
+
+CALLBACK_RETURN
+----------------------------
+DATE: 2022-03-05 12:34:54
+URL https://3dsec.sberbank.ru/payment/rest/
+DATA: 
+Array
+(
+    [userName] => dibidishop-api
+    [password] => dibidishop
+    [orderId] => b14c98a5-31ee-7da1-89e6-f13c5e369c5e
+)
+
+RESPONSE: 
+{"errorCode":999,"errorMessage":"Server not available"}
+
+
+CALLBACK_UPDATE
+----------------------------
+DATE: 2022-03-31 16:13:19
+URL https://3dsec.sberbank.ru/mportal-uat/mvc/public/merchant/update/dibidishop
+DATA: 
+Array
+(
+    [login] => dibidishop-api
+    [password] => dibidishop
+    [test_mode] => 1
+    [callbacks_enabled] => 1
+    [callback_addresses] => https://test.dibidishop.ru/bitrix/tools/sale_ps_result.php?PAYMENT=SBERBANK&OPERATION_CALLBACK=SBER
+    [callback_operations] => approved,deposited
+    [name] => dibidishop
+)
+
+RESPONSE: 
+{"status":"SUCCESS","error":null}
+
+
+REGISTER_NEW_ORDER
+----------------------------
+DATE: 2022-03-31 16:13:19
+URL https://3dsec.sberbank.ru/payment/rest/
+DATA: 
+Array
+(
+    [orderNumber] => 33_129_0
+    [amount] => 60750
+    [userName] => dibidishop-api
+    [password] => dibidishop
+    [description] => 
+    [returnUrl] => https://test.dibidishop.ru/bitrix/tools/sale_ps_result.php?PAYMENT=SBERBANK&ORDER_ID=33&PAYMENT_ID=129
+    [CMS] => Bitrix 21.1200.800
+    [language] => ru
+    [jsonParams] => {"CMS":"Bitrix 21.1200.800","Module-Version":"1.3.5","USER_FIO":"\u041d\u0435 \u043e\u0444\u043e\u0440\u043c\u043b\u044f\u0442\u044c!","email":"alexandr3127@mail.ru","phone":"+79658180775"}
+    [orderBundle] => {"customerDetails":{"email":"alexandr3127@mail.ru"},"cartItems":{"items":[{"positionId":0,"itemCode":6397,"name":"\u0424\u0438\u043a\u0441\u0430\u0442\u043e\u0440 \u0434\u043b\u044f \u043a\u043e\u0440\u043e\u0442\u043a\u0438\u0445 \u0432\u043e\u043b\u043e\u0441 Wahl Hairgripper Black 0093-6390","itemAmount":60750,"itemPrice":60750,"quantity":{"value":1,"measure":"\u0448\u0442"},"tax":{"taxType":0},"itemAttributes":{"attributes":[{"name":"paymentMethod","value":"1"},{"name":"paymentObject","value":"1"}]}}]}}
+    [taxSystem] => 1
+)
+
+RESPONSE: 
+Array
+(
+    [orderId] => 6a02f2b5-39e4-731e-9b5c-ca3e5e369c5e
+    [formUrl] => https://3dsec.sberbank.ru/payment/merchants/sbersafe_sberid/payment_ru.html?mdOrder=6a02f2b5-39e4-731e-9b5c-ca3e5e369c5e
+)
+
+
+
+CALLBACK_UPDATE
+----------------------------
+DATE: 2022-03-31 16:47:33
+URL https://3dsec.sberbank.ru/mportal-uat/mvc/public/merchant/update/dibidishop
+DATA: 
+Array
+(
+    [login] => dibidishop-api
+    [password] => dibidishop
+    [test_mode] => 1
+    [callbacks_enabled] => 1
+    [callback_addresses] => https://test.dibidishop.ru/bitrix/tools/sale_ps_result.php?PAYMENT=SBERBANK&OPERATION_CALLBACK=SBER
+    [callback_operations] => approved,deposited
+    [name] => dibidishop
+)
+
+RESPONSE: 
+{"status":"SUCCESS","error":null}
+
+
+REGISTER_NEW_ORDER
+----------------------------
+DATE: 2022-03-31 16:47:33
+URL https://3dsec.sberbank.ru/payment/rest/
+DATA: 
+Array
+(
+    [orderNumber] => 36_132_0
+    [amount] => 2050000
+    [userName] => dibidishop-api
+    [password] => dibidishop
+    [description] => 
+    [returnUrl] => https://test.dibidishop.ru/bitrix/tools/sale_ps_result.php?PAYMENT=SBERBANK&ORDER_ID=36&PAYMENT_ID=132
+    [CMS] => Bitrix 21.1200.800
+    [language] => ru
+    [jsonParams] => {"CMS":"Bitrix 21.1200.800","Module-Version":"1.3.5","USER_FIO":"\u0410\u0440\u0442\u0435\u043c \u0413\u0430\u0432\u0440\u0438\u043b\u043e\u0432","email":"gavrilov@dibidishop.ru","phone":"+79872961301"}
+    [orderBundle] => {"customerDetails":{"email":"gavrilov@dibidishop.ru"},"cartItems":{"items":[{"positionId":0,"itemCode":5333,"name":"\u041c\u0430\u0448\u0438\u043d\u043a\u0430 \u0434\u043b\u044f \u0441\u0442\u0440\u0438\u0436\u043a\u0438 Wahl Super Taper Cordless 8591-2316H","itemAmount":2050000,"itemPrice":2050000,"quantity":{"value":1,"measure":"\u0448\u0442"},"tax":{"taxType":0},"itemAttributes":{"attributes":[{"name":"paymentMethod","value":"1"},{"name":"paymentObject","value":"1"}]}}]}}
+    [taxSystem] => 1
+)
+
+RESPONSE: 
+Array
+(
+    [orderId] => c24fa1f0-1c87-7ef2-a73a-8b415e369c5e
+    [formUrl] => https://3dsec.sberbank.ru/payment/merchants/sbersafe_sberid/payment_ru.html?mdOrder=c24fa1f0-1c87-7ef2-a73a-8b415e369c5e
+)
+
+
+
+CALLBACK_UPDATE
+----------------------------
+DATE: 2022-03-31 17:37:19
+URL https://3dsec.sberbank.ru/mportal-uat/mvc/public/merchant/update/dibidishop
+DATA: 
+Array
+(
+    [login] => dibidishop-api
+    [password] => dibidishop
+    [test_mode] => 1
+    [callbacks_enabled] => 1
+    [callback_addresses] => https://test.dibidishop.ru/bitrix/tools/sale_ps_result.php?PAYMENT=SBERBANK&OPERATION_CALLBACK=SBER
+    [callback_operations] => approved,deposited
+    [name] => dibidishop
+)
+
+RESPONSE: 
+{"status":"SUCCESS","error":null}
+
+
+REGISTER_NEW_ORDER
+----------------------------
+DATE: 2022-03-31 17:37:21
+URL https://3dsec.sberbank.ru/payment/rest/
+DATA: 
+Array
+(
+    [orderNumber] => 37_133_0
+    [amount] => 2800
+    [userName] => dibidishop-api
+    [password] => dibidishop
+    [description] => 
+    [returnUrl] => https://test.dibidishop.ru/bitrix/tools/sale_ps_result.php?PAYMENT=SBERBANK&ORDER_ID=37&PAYMENT_ID=133
+    [CMS] => Bitrix 21.1200.800
+    [language] => ru
+    [jsonParams] => {"CMS":"Bitrix 21.1200.800","Module-Version":"1.3.5","USER_FIO":"\u0410\u0440\u0442\u0435\u043c \u0413\u0430\u0432\u0440\u0438\u043b\u043e\u0432","email":"gavrilov@dibidishop.ru","phone":"+79872961301"}
+    [orderBundle] => {"customerDetails":{"email":"gavrilov@dibidishop.ru"},"cartItems":{"items":[{"positionId":0,"itemCode":5419,"name":"\u041f\u0438\u043b\u043a\u0430 \u0434\u043b\u044f \u043d\u043e\u0433\u0442\u0435\u0439 Simply Nails professional 100\/100","itemAmount":2800,"itemPrice":2800,"quantity":{"value":1,"measure":"\u0448\u0442"},"tax":{"taxType":0},"itemAttributes":{"attributes":[{"name":"paymentMethod","value":"1"},{"name":"paymentObject","value":"1"}]}}]}}
+    [taxSystem] => 1
+)
+
+RESPONSE: 
+Array
+(
+    [orderId] => 6e916dcb-8fc8-7c32-8d83-63075e369c5e
+    [formUrl] => https://3dsec.sberbank.ru/payment/merchants/sbersafe_sberid/payment_ru.html?mdOrder=6e916dcb-8fc8-7c32-8d83-63075e369c5e
+)
+
+
+

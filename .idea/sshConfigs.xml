@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="SshConfigs">
+    <configs>
+      <sshConfig authType="PASSWORD" host="dibidishop.ru" id="d42a7eb8-a24c-4f32-b606-1717c77b69b3" port="22" nameFormat="DESCRIPTIVE" username="u1279322" useOpenSSHConfig="true" />
+      <sshConfig authType="PASSWORD" host="89.108.76.173" id="bcd9b2cc-9296-4add-b738-7cf682ccb281" port="22" nameFormat="DESCRIPTIVE" username="bitrix" useOpenSSHConfig="true" />
+    </configs>
+  </component>
+</project>
